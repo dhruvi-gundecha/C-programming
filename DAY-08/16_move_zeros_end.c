@@ -1,10 +1,9 @@
 // => move zeros to end....
-//  => error => cpu limit exceeded...
-// => logically it is correct...
+
 #include <stdio.h>
 int main()
 {
-    int size;
+    int size, count = 0;
 
     printf("enter the array size : ");
     scanf("%d", &size);
@@ -13,11 +12,15 @@ int main()
 
     for (int i = 0; i < size; i++)
     {
-        printf("enter the array size : ");
+        printf("enter the array element : ");
         scanf("%d", &array[i]);
+        if (array[i] == 0)
+        {
+            count++;
+        }
     }
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < size - count; i++)
     {
         if (array[i] == 0)
         {
