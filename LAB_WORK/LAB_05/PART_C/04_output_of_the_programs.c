@@ -1,14 +1,16 @@
-#include<stdio.h> 
-Void main() 
-{ 
-    Int X=5; 
-    If(X==1){ 
-        printf("%d",X); 
-    } 
-    else{ 
-        printf("%d",X);      
-    } 
-} 
+#include <stdio.h>
+Void main()
+{
+    Int X = 5;
+    If(X == 1)
+    {
+        printf("%d", X);
+    }
+    else
+    {
+        printf("%d", X);
+    }
+}
 
 //  => error :-
 
@@ -36,14 +38,15 @@ Void main()
 // 3. if in small case.
 // ----------------------------------------
 
-#include<stdio.h> 
-Void main() 
-{ 
-    Int X=5; 
-    If(true){ 
-        printf("hello"); 
-    } 
-} 
+#include <stdio.h>
+Void main()
+{
+    Int X = 5;
+    If(true)
+    {
+        printf("hello");
+    }
+}
 
 //  => error :-
 
@@ -82,17 +85,17 @@ Void main()
 // 4. add #include<stdbool.h> library
 // ----------------------------------------
 
-#include<stdio.h> 
-void main() 
-{ 
-    int X=5; 
-    if(X<1) 
-        printf("hello"); 
-    if(X==5) 
-        printf("hi"); 
-else 
-        printf("hi"); 
-} 
+#include <stdio.h>
+Void main()
+{
+    Int X = 5;
+    If(X < 1);
+    printf("hello");
+    if (X == 5)
+        printf("hi");
+    else
+        printf("hi");
+}
 
 //  => error :-
 
